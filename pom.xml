@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>fr.xebia.gae</groupId>
-    <artifactId>youarewyl</artifactId>
+    <groupId>fr.xebia.gae.yawyl</groupId>
+    <artifactId>yawyl</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -23,9 +23,10 @@
         </pluginManagement>
     </build>
     <modules>
-        <module>youarewyl-war</module>
-        <module>youarewyl-ear</module>
-        <module>youarewyl-backoffice-api</module>
-        <module>youarewyl-backoffice-client</module>
-  </modules>
+        <module>yawyl-app</module>
+        <module>yawyl-ear</module>
+        <module>yawyl-api</module>
+        <module>yawyl-model</module>
+        <module>yawyl-api-client</module>
+    </modules>
 </project>
